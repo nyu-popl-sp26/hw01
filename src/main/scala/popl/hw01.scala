@@ -25,16 +25,13 @@ object hw01 extends App:
    * fragments, is to use the interactive Scala interpreter.
    *
    * To run a function defined in this file in the interpreter, first either:
-   * 1. From within Intellij Idea, right-click on this file and select "Scala REPL"
+   * 1. From within IntelliJ Idea, select "Tools" from the top menu, and select "Scala REPL"
    * 2. execute `sbt console` on the command line within the hw01 root directory.
    * Then execute: import popl.hw01._
    * You can now execute functions defined in the hw01 object.
    * For example, execute: testPlus1()
    * The assertion in testPlus1() passes, so it appears as if nothing happens.
    * You can uncomment the "bad test specification" and see that a failed assert throws an exception.
-   *
-   * From within Intellij Idea, you can also send code fragments to the Scala REPL by right-clicking on
-   * the highlighted code and selecting "Send Selection to Scala REPL".
    *
    * Please note that if you make changes to the source code in hw01.scala after you have started a
    * Scala REPL session, these changes will not be automatically recognized by the interpreter.

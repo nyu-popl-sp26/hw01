@@ -1,6 +1,6 @@
 ## Homework 1
 
-The deadline for Homework 1 is Friday, September 15, 6pm. The late submission deadline is Friday, September 22, 6pm.
+The deadline for Homework 1 is Thursday, February 5th, 2pm. 
 
 Refer to the homework handout [`hw01.pdf`](hw01.pdf) for details about the assignment. This file provides some information to help you get started with setting up your development environment for the homework assignments.
 
@@ -12,14 +12,14 @@ provided in the announcement of this homework assignment on
 Brightspace. After clicking on the link, you will receive an email from
 GitHub, when your copy of the repository is ready. It will be
 available at
-`https://github.com/nyu-popl-fa23/hw01-<YOUR-GITHUB-USERNAME>`.
+`https://github.com/nyu-popl-sp26/hw01-<YOUR-GITHUB-USERNAME>`.
 Note that this may take a few minutes.
 
-* Open a browser at `https://github.com/nyu-popl-fa23/hw01-<YOUR-GITHUB-USERNAME>` with your GitHub username inserted at the appropriate place in the URL.
+* Open a browser at `https://github.com/nyu-popl-sp26/hw01-<YOUR-GITHUB-USERNAME>` with your GitHub username inserted at the appropriate place in the URL.
 * Choose a place on your computer for your homework assignments to reside and open a terminal to that location.
 * Execute the following git command: <br/>
   ```bash
-  git clone https://github.com/nyu-popl-fa23/hw01-<YOUR-GITHUB-USERNAME>.git hw01
+  git clone https://github.com/nyu-popl-sp26/hw01-<YOUR-GITHUB-USERNAME>.git hw01
   cd hw01
   ```
 
@@ -35,7 +35,7 @@ The assignment consists of two parts:
    src/main/scala/popl/hw01.scala 
    ``` 
    relative to the root directory of the repository. Follow the instructions in the
-   [in-class-code](https://github.com/nyu-popl-fa23/in-class-code)
+   [in-class-code](https://github.com/nyu-popl-sp26/in-class-code)
    repository to import the project into IntelliJ (or use your other
    favorite IDE or editor to work on the assignment).
 
@@ -63,18 +63,18 @@ You can replace "solution" by a more meaningful commit message.
 
 Refresh your browser window pointing at
 ```
-https://github.com/nyu-popl-fa23/hw01-<YOUR-GITHUB-USERNAME>/
+https://github.com/nyu-popl-sp26/hw01-<YOUR-GITHUB-USERNAME>/
 ```
 and double-check that your solution has been uploaded correctly.
 
-You can resubmit an updated solution anytime by `re-executing the above
-git commands. Though, please remember the rules for submitting
-solutions after the homework deadline has passed.
+You can resubmit an updated solution anytime by re-executing the above
+git commands. The late policy regarding assignments can be found under Syllabus on Brightspace. 
 
 
 ### ScalaTest
 
-We will be using the [ScalaTest](http://www.scalatest.org/) framework for unit testing.  Using this framework, we practice test-driven development (TDD), a standard practice in industry.
+We will be using the [ScalaTest](http://www.scalatest.org/) framework for unit testing.  
+Using this framework, we practice test-driven development (TDD), a standard practice in industry.
 
 You do not need to explicitly download ScalaTest. It will be automatically downloaded when you import the project into the IDE, respectively, when you run `sbt` from inside the project directory. 
 
@@ -91,8 +91,8 @@ This will compile your solution, run the tests, and create a new view tab called
 
 ### Command-Line Tools
 
-While not strictly required if you have installed Intellij Idea, you may also want to install the command-line tools. In particular, if you would like to build the project on the command line, you should install [sbt](http://www.scala-sbt.org/).
-sbt will become particularly useful in later homework assignments to test your interpreter implementation. Follow the instructions given in the [in-class-code](https://github.com/nyu-popl-fa23/in-class-code) repository for installing sbt.
+While not strictly required if you have installed IntelliJ Idea, you may also want to install command-line tools. In particular, if you would like to build the project on the command line, you should install [sbt](http://www.scala-sbt.org/).
+sbt will become particularly useful in later homework assignments to test your interpreter implementation. Follow the instructions given in the [in-class-code](https://github.com/nyu-popl-sp26/in-class-code) repository for installing sbt.
 
 
 For your convenience, an sbt build script `build.sbt` is included in the code package.  Open a terminal window and change into the directory that contains the project repository for the assignment. You can then issue the following commands to compile, test and run your code:
@@ -121,7 +121,7 @@ It is often convenient to run sbt interactively. To start the interactive shell 
 $ sbt
 ```
 
-Alternatively, you can also start the sbt shell from inside Intellij Idea. Simply press `Cmd+Shift+S` [OSX] or `Ctrl+Shift+S` [Ubuntu], or click on 'sbt shell' in the pane at the bottom of the window.
+Alternatively, you can also start the sbt shell from inside IntelliJ Idea. Simply press `Cmd+Shift+S` [OSX] or `Ctrl+Shift+S` [Ubuntu], or click on 'sbt shell' in the pane at the bottom of the window.
 
 Once the interactive shell has been initialized, you will see a command prompt, indicated by the symbol `>`. You can then execute any sbt command at the prompt. E.g. the sbt command
 
